@@ -9,3 +9,5 @@ A miniature version of a real world firewall, with these key components:
   Stateless and stateful inspection features
 
 Checking out the overwiew.pdf is recommended.
+
+https://github.com/mikevin9/Workshop-on-Information-Security
