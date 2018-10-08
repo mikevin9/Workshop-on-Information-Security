@@ -8,6 +8,6 @@ A miniature version of a real world firewall, with these key components:
   Protocol enforcement
   Stateless and stateful inspection features
 
-Checking out the overwiew.pdf is recommended.
+Checking out the overview.pdf is recommended.
 
 https://github.com/mikevin9/Workshop-on-Information-Security
