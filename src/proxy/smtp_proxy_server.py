@@ -13,7 +13,6 @@ MAX_PACKET_SIZE = 8192
 
 def main():
 
-	flag = True
 	try:
 		s_in = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	except socket.error, msg:
@@ -32,7 +31,7 @@ def main():
 	s_in.listen(10)
 	print 'IN Socket now listening'
 
-	while flag:
+	while True:
 		print '********************************************************'
 		conn_in, addr = s_in.accept()
 		print 'IN Socket connected with ' + addr[0] + ':' + str(addr[1])
